@@ -1,0 +1,124 @@
+body {
+  height: 100vh;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rating-card {
+  background-color: #1e242e;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  height: 375px;
+  width: 375px;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.star-sign-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #272e3f;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+.rating-header {
+  color: #fff;
+  font-size: 29px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  font-weight: 500;
+}
+
+.rating-description {
+  color: hsl(217, 12%, 63%);
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.rating-buttons-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.btn-rating {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: #282e38;
+  color: hsl(217, 12%, 63%);
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-submit {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+  padding: 15px;
+  border-radius: 25px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.btn-rating:hover {
+  background-color: hsl(217, 12%, 63%);
+  color: #fff;
+}
+
+.btn-rating:focus {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.btn-submit:active {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+}
+
+.thank-you-card {
+  background-color: #1e242e;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  height: 375px;
+  width: 375px;
+  border-radius: 25px;
+  padding: 2rem;
+}
+
+.icon-thank-you{
+  margin-bottom: 20px;
+}
+
+.rating{
+  background-color: #282e38;
+  color: hsl(25, 97%, 53%);
+  border-radius: 25px;
+  padding: 7px 15px;
+  font-size: 14px;
+}
+
+.thank-you-header{
+  color: #fff;
+  font-weight:400;
+  margin-bottom: 0;
+}
+
+.thank-you-description{
+  color:hsl(217, 12%, 63%) ;
+  padding: 0 5px;
+  margin-bottom: 0;
+}
